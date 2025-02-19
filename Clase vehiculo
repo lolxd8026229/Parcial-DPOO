@@ -1,0 +1,13 @@
+abstract class Vehiculo {
+    protected int cilindraje;
+    protected int peso;
+    protected int tamanoTanque;
+
+    public Vehiculo(int cilindraje, int peso, int tamanoTanque) {
+        this.cilindraje = cilindraje;
+        this.peso = peso;
+        this.tamanoTanque = tamanoTanque;
+    }
+
+    public abstract double calcularAutonomia();
+}

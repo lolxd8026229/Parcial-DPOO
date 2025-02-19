@@ -1,0 +1,11 @@
+public class Main {
+
+    public static void main(String[] args) {
+       
+        Automovil automovil = new Automovil(1600, 1200, 50);
+        System.out.println("Autonomía del automóvil: " + automovil.calcularAutonomia() + " km");
+
+        Motocicleta motocicleta = new Motocicleta(500, 200, 15);
+        System.out.println("Autonomía de la motocicleta: " + motocicleta.calcularAutonomia() + " km");
+    }
+}
