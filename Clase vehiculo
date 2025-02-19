@@ -8,6 +8,5 @@ abstract class Vehiculo {
         this.peso = peso;
         this.tamanoTanque = tamanoTanque;
     }
-
     public abstract double calcularAutonomia();
 }

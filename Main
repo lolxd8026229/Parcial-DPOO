@@ -3,9 +3,9 @@ public class Main {
     public static void main(String[] args) {
        
         Automovil automovil = new Automovil(1, 1, 1);
-        System.out.println("Autonomía del automóvil: " + automovil.calcularAutonomia() + " km");
+        System.out.println("Autonomía del automóvil: " + automovil.calcularAutonomia() + "Kilometros");
 
         Motocicleta motocicleta = new Motocicleta(1, 1, 1);
-        System.out.println("Autonomía de la motocicleta: " + motocicleta.calcularAutonomia() + " km");
+        System.out.println("Autonomía de la motocicleta: " + motocicleta.calcularAutonomia() + "Kilometros");
     }
 }
